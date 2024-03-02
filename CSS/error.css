@@ -1,0 +1,60 @@
+
+
+/* error section start */
+.error-section{
+    width: 100%;
+   
+}
+.error-section .error-content{
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 100px 0;
+}
+.error-section .error-content h1{
+    font-size: 150px;
+    text-shadow: 3px 5px 2px #3333;
+    color: #1A76D1;
+    font-weight: 700;
+}
+.error-section .error-content h4{
+    font-size: 25px;
+    color: #333;
+    margin-top: -20px;
+}
+.error-section .error-content p{
+    color: #757575;
+    margin: 0;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 20px;
+}
+.error-section .error-content input{
+    width: 450px;
+    height: 50px;
+    padding: 0px 78px 0 30px;
+    padding-left: 30px;
+    border: none;
+    background: #e4e4e4;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.error-section .error-content button.btn{
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: #1A76D1;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+.error-section .error-content button.btn i{
+    font-size: 16px;
+    color: #fff;
+}
+/* error section end */

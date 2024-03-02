@@ -1,0 +1,109 @@
+/* desktop responsive */
+@media screen and (max-width:1399px) {
+    
+}
+
+@media screen and (max-width:1199px) {
+    header .header-navigation .row ul{
+        display: none;
+    }
+    .slider-service{
+        padding: 7em 0 14em;
+    }
+    .slider-service .row h1{
+        font-size:36px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .feature-section .feature-box-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Different-Service .Different-Service-content{
+        grid-template-columns: repeat(1, 1fr);        
+    }
+    .footer-section .footer-content{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .footer-section .footer-content .footer-links .all-icons{
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .content-logo .overlay .client-logo{
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .emergency-help-content .emergency-help{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .health-service  .genereal-info{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .resonable-price .icon-price{
+        grid-template-columns: repeat(2, 1fr); 
+      
+    }
+    .resonable-price .icon-price .icon-price-content .table-list .table-button{
+        padding: 20px;
+    }
+    .resonable-price .icon-price .icon-price-content .table-list .table-button a.btn{
+        padding: .7em 1.8em;
+    }
+    .cleanliness-rule .scrool-image{
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .medical-news .medical-report{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media screen and (max-width:767px) {
+    .feature-section .feature-box-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .number-content .icon-number{
+        grid-template-columns: repeat(2, 1fr);        
+    }
+    .footer-section .footer-content{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .footer-section .footer-content .footer-links .all-icons{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .content-logo .overlay .client-logo{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .emergency-help-content .emergency-help{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .health-service  .genereal-info{
+        grid-template-columns: repeat(1, 1fr); 
+        text-align: center;
+    }
+    .health-service  .genereal-info .contant{
+        margin-top: 50px;
+    }
+    .resonable-price .icon-price{
+        grid-template-columns: repeat(1, 1fr); 
+       gap: 20px;
+    }
+    .resonable-price .icon-price .icon-price-content .table-list .table-button{
+        padding: 20px;
+    }
+    .resonable-price .icon-price .icon-price-content .table-list .table-button a.btn{
+        padding: .7em 2.5em;
+    }
+    .cleanliness-rule .scrool-image{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .medical-news .medical-report{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
+
+@media screen and (max-width:575px) {
+    .content-logo .overlay .client-logo{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .cleanliness-rule .scrool-image{
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
